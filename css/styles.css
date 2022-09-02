@@ -1,0 +1,41 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+img {
+    height: 100%;
+}
+
+body{
+    background-color:grey;
+}
+
+/* Nav bar */
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.links > li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.links > :last-child{
+    margin-right: 0px;
+}
