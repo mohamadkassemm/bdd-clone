@@ -17,14 +17,14 @@ body{
 /* Hero */
 .hero{
     background: url("../images/slide1.jpg");
-
+    
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
 .description{
-    
+
     background-size: 720px;
     padding: 10px;
     opacity: 100%;
@@ -40,7 +40,6 @@ body{
 }
 
 .hero-buttons{
-    
     list-style: none;
     display: flex;
     width: 30vh;
@@ -116,15 +115,24 @@ body{
     display: flex;
   
 }
-.info{
+.info-tittle{
+    text-align: center;
+}
+.info{ 
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: beige;
+    background-color: white;
     margin: 10px;
+    padding: 2%;
+    width: 20%;
 }
 .images-info{
     width:100%;
-    height: 90%;
+    height: 100%;
 
+}
+.topic{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 35px;
 }
